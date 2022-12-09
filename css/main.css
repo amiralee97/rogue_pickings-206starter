@@ -13,7 +13,6 @@ body {
 
 .container{
 	max-width: 1200px;
-	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,30 +44,29 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
 	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
+	width: 100%;
 }
 
 header h1 {
 	float: left;
-	margin: 0;
 	padding: 38px 0;
+	width: 100%;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	float: right;
+	/*float: right;*/
 	padding: 46px 0;
+	display: flex;
+	flex-flow: row wrap; 
 }
 header nav ul {
-	margin: 0;
 	padding: 0;
 }
 header nav ul li {
@@ -77,17 +75,19 @@ header nav ul li {
 	font-size: 14px;
 	padding: 0 10px;
 	display: inline;
+	flex-flow: row wrap;
+	width: 100%;
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	display: flex;
+	flex-flow: row wrap; 
 }
 
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0 auto;
-	clear: both;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -96,7 +96,7 @@ header nav ul li a{
 
 .main-image {
 	height: auto;
-	float: left;
+	/*float: left;*/
 }
 .main-image img {
 	width: 100%;
@@ -105,10 +105,10 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	float: left;
+	/*float: left;*/
 }
 .main-title h2 {
-	text-align: left;
+	/*text-align: left;*/
 	padding: 5px 0;
 	color: #77a466;
 }
@@ -123,8 +123,9 @@ header nav ul li a{
 .section-three {
 	width: 33%;
 	height: auto;
-	float: left;
+	/*float: left;*/
 	border-top: 1px solid #eee;
+	width: 100%;
 }
 
 .section-one h3 {
@@ -165,7 +166,7 @@ header nav ul li a{
 footer {
 	height: 50px;
 	border-top: 3px solid #eee;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	clear: both;
 	text-align: center;
 	display: flex;
